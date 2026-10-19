@@ -65,6 +65,15 @@ double-clicking the files.
 
 ---
 
+## Lea Proves: the desktop layer
+
+The repo also carries the desktop extraction layer behind Lea Proves
+(`proves/`): it reads an unencrypted iPhone backup the user already made on
+her computer, narrows what is relevant on-device (no cloud AI per photo),
+lets her remove anything in a quick review, and assembles a fingerprinted
+dossier with a lawyer-review draft. It never gives legal advice and the raw
+data never leaves her computer. See [docs/LEA_PROVES_SPEC.md](docs/LEA_PROVES_SPEC.md).
+
 ## How it works
 
 ```
